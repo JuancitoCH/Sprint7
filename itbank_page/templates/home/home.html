@@ -1,0 +1,127 @@
+{% extends "../base/base.html" %}
+
+{% load static %}
+{% block content %}
+
+    <main class="body">
+        <!-- Tarjetas inicio -->
+        <section class="parte-tarjetas">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <article class="box-tarjeta ml-sm-4 ml-0" style="background-color: white;">
+                            <div class="tarjeta">
+                                <h3 class="fw-bold">VISA xxx</h3>
+                                <p>Últimos consumos</p>
+                                <p>Cierre</p>
+                                <h4>$00.00</h4>
+                                <h4>USD 0.00</h4>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="box-tarjeta ml-sm-4 ml-0" style="background-color: gold;">
+                            <div class="tarjeta">
+                                <h3 class="fw-bold">VISA xxx</h3>
+                                <p>Últimos consumos</p>
+                                <p>Cierre</p>
+                                <h4>$00.00</h4>
+                                <h4>USD 0.00</h4>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="box-tarjeta ml-sm-4 ml-0" style="background-color: black;">
+                            <div class="tarjeta" style="color: silver;">
+                                <h3 class="fw-bold">VISA xxx</h3>
+                                <p>Últimos consumos</p>
+                                <p>Cierre</p>
+                                <h4>$00.00</h4>
+                                <h4>USD0.00</h4>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Tarjetas fin -->
+
+        <section class="container d-lg-flex flex-lg-row justify-content-center flex-wrap align-items-center">
+            <div class="row justify-content-center">
+                <div class="btn col-lg-3 col-6">
+                    <button class="btn-transferencia"></button>
+                    <p>Transferencias</p>
+                </div>
+                <div class="btn col-lg-3 col-6">
+                    <button class="btn-resumen"></button>
+                    <p>Resumen Bancario</p>
+                </div>
+                <div class="btn col-lg-3 col-6">
+                    <button class="btn-pago-serivicios"></button>
+                    <p>Pago de Servicios</p>
+                </div>
+                <div class="btn col-lg-3 col-6">
+                    <button class="btn-prestamos"></button>
+                    <p>Préstamos</p>
+                </div>
+                <div class="btn col-lg-3 col-6">
+                    <a href="{% url 'dolar' %}">
+                        <button class="btn-prestamos"></button>
+                    </a>
+                    <p>Dolar</p>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <div id="cotizaciones"></div>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <section
+            class="d-flex flex-md-row mx-lg-2 align-items-lg-stretch justify-content-lg-center flex-md-wrap flex-column align-items-center">
+            <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 18rem;">
+                <img src="{% static 'medias/puntosIB.png' %}" class="card-img-top" alt="Usa tus puntos IB+">
+                <div class="card-body">
+                    <h5 class="card-title">Puntos IB+</h5>
+                    <p class="card-text">Gastá y ganá puntos IB+, los cuales podrás
+                        cambiar por electrodomésticos, indumentaria
+                        e incluso viajes.</p>
+                    <a href="#" class="btn btn-itba">Conocé más</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 15rem;">
+                <img src="{% static 'medias/inversiones.png' %}" class="card-img-top" alt="Inversiones">
+                <div class="card-body">
+                    <h5 class="card-title">Inversiones</h5>
+                    <p class="card-text">Tradea en nuestra plataforma online
+                        en tiempo real, para que tus inversiones
+                        no decaigan.</p>
+                    <a href="#" class="btn btn-itba">Conocé más</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 15rem;">
+                <img src="{% static 'medias/seguros.png' %}" class="card-img-top" alt="Seguros">
+                <div class="card-body">
+                    <h5 class="card-title">Seguros</h5>
+                    <p class="card-text">Cotizá y solicitá, de forma online, los
+                        seguros para todas tus propiedades.</p>
+                    <a href="#" class="btn btn-itba">Conocé más</a>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

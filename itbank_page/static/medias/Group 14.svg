@@ -1,0 +1,14 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="48" cy="48" r="31" fill="#335C81"/>
+<path d="M30 46H46V30H30V46ZM34 34H42V42H34V34Z" fill="white"/>
+<path d="M30 66H46V50H30V66ZM34 54H42V62H34V54Z" fill="white"/>
+<path d="M50 30V46H66V30H50ZM62 42H54V34H62V42Z" fill="white"/>
+<path d="M66 62H62V66H66V62Z" fill="white"/>
+<path d="M54 50H50V54H54V50Z" fill="white"/>
+<path d="M58 54H54V58H58V54Z" fill="white"/>
+<path d="M54 58H50V62H54V58Z" fill="white"/>
+<path d="M58 62H54V66H58V62Z" fill="white"/>
+<path d="M62 58H58V62H62V58Z" fill="white"/>
+<path d="M62 50H58V54H62V50Z" fill="white"/>
+<path d="M66 54H62V58H66V54Z" fill="white"/>
+</svg>
