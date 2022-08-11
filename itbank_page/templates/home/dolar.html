@@ -1,0 +1,15 @@
+{% extends "../base/base.html" %}
+
+{% load static %}
+{% block scripts %}
+<script src="https://kit.fontawesome.com/72286fea37.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="{% static 'js/fetch.js' %}" defer></script>
+    <script src="{% static 'js/Grafico.js' %}"defer></script>
+{% endblock scripts %}
+{% block content %}
+<canvas id="myChart" style="position: relative; height: 40vh;width:80vw;"></canvas>
+<div id='cards-container' class="row row-cols-1 my-5 row-cols-md-3 g-4 w-75 mx-auto mt-5">
+</div>
+{% endblock %}
