@@ -21,3 +21,14 @@ class Cuenta(models.Model):
         managed = False
         db_table = 'cuenta'
 
+class Movimientos(models.Model):
+    id_movimientos = models.AutoField(primary_key=True, blank=True)
+    identificacion_mov = models.IntegerField(blank=True, null=True)
+    numero_cuenta = models.IntegerField(blank=True, null=True)
+    tp_operacion = models.CharField(blank=True, null=True, max_length = 200)
+    hora_trans = models.IntegerField(blank=True, null=True)
+    new_balance = models.IntegerField(db_column='New_balance', blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'movimientos'
