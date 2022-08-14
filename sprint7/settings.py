@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'sprint7.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'itbank.db',
+        'NAME': BASE_DIR / 'itbank_v2.db',
     }
 }
 
