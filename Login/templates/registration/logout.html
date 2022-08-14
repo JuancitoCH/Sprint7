@@ -1,0 +1,7 @@
+{% extends "../base/base.html" %}
+
+{% load static %}
+{% block content %}
+  <p>Has salido de la sesion</p>
+  <a href="{% url 'login' %}">Hacer click aqui para volver a entrar</a>
+{% endblock %}
