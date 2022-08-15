@@ -6,3 +6,5 @@
 >- Rocio Peña
 >- Augusto Manzone
 >- Catalina Groba
+>> comandos de instalacion necesarios
+>> pip install django-crispy-forms

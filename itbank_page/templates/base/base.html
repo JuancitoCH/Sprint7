@@ -27,6 +27,9 @@
             <div class="inicio d-flex w-100">
                 <label for="btn-menu" class="btn-menu d-flex align-items-center"></label>
                 <img src="{% static 'medias/LogoItbank.jpeg' %}" alt="" class="logo-itbank" id="inicio">
+                {% if request.user.username %}
+                    <p class="align-self-flex-end">{{request.user.username}}</p>
+                {% endif %}
                 <button class="btn-perfil"></button>
             </div>
         </a>
@@ -45,6 +48,12 @@
                         <li class="ull"><a href="#">Mis tarjetas</a></li>
                         <li class="ull"><a href="#">Atención al cliente</a></li>
                         <li class="ull"><a href="#">Acerca de nosotros</a></li>
+                        {% if not request.user.is_authenticated %}
+                        <li class="ull"><a href="{% url 'login' %}">Acceder</a></li>
+                        <li class="ull"><a href="{% url 'register' %}">Registrarse</a></li>
+                        {% else %}
+                        <li class="ull"><a href="{% url 'logout' %}">Cerrar sesion</a></li>
+                        {% endif %}
                     </ul>
                 </nav>
                 <label for="btn-menu">✖️</label>
