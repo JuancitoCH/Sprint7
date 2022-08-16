@@ -6,7 +6,11 @@
 {% block content %}
   <div class="container py-5">
     {% if render_message %}
-    <p class="alert alert-danger">{{ message }}</p>
+      {% if aproved %}
+        <p class="alert alert-primary">{{ message }}</p>
+      {% else %}
+        <p class="alert alert-danger">{{ message }}</p>
+      {% endif %}
     {% endif %}
     <h1>Solicitud de Prestamo Pre-Aprobado</h1>
     <form action="{% url 'form_preap_prestamos_POST' %}"  method="POST">

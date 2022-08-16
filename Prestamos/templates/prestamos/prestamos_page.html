@@ -4,5 +4,12 @@
   
 <!--Register--> 
 {% block content %}
+  {% for prestamo in prestamos %}
+  <!-- Formatear bien los campos y dar formato -->
+  <div>
+    <p>{{prestamo.loan_total}}</p>
+    <p>{{prestamo.loan_type}}</p>
+  </div>
+  {% endfor %}
   <a href="{% url 'form_preap_prestamos' %}">Solicitar Prestamo</a>
 {% endblock %}
