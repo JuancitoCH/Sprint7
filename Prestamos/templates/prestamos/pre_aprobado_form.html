@@ -1,0 +1,29 @@
+{% extends "../base/base.html" %}
+
+{% load static %}
+  
+<!--Register--> 
+{% block content %}
+  <div class="container py-5">
+    {% if render_message %}
+    <p class="alert alert-danger">{{ message }}</p>
+    {% endif %}
+    <h1>Solicitud de Prestamo Pre-Aprobado</h1>
+    <form action="{% url 'form_preap_prestamos_POST' %}"  method="POST">
+      <p>Cliente : {{ cliente }}</p>
+      {% csrf_token %}
+      <label for="cantidad" class="form-label">Cantidad</label>
+      <input class="form-control" type="number" name="cantidad">
+      <label for="fecha" class="form-label">Fecha</label>
+      <input class="form-control" type="date" name="fecha">
+      <label for="tipo_prestamo" class="form-label">Tipo de Prestamo solicitado</label>
+      <select name="tipo_prestamo" class="form-select" aria-label="Default select example" id="">
+        <option value="HIPOTECARIO">Hipotecario</option>
+        <option value="PERSONAL">Personal</option>
+        <option value="PRENDARIO">Prendario</option>
+      </select>
+
+      <button class="btn btn-itba" type="submit">Solicitar</button>
+    </form>
+  </div>
+{% endblock %}

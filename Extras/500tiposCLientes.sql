@@ -1,0 +1,600 @@
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (1,3,1),
+  (2,2,2),
+  (3,2,3),
+  (4,2,4),
+  (5,2,5),
+  (6,2,6),
+  (7,3,7),
+  (8,2,8),
+  (9,1,9),
+  (10,3,10);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (11,2,11),
+  (12,2,12),
+  (13,1,13),
+  (14,1,14),
+  (15,1,15),
+  (16,1,16),
+  (17,2,17),
+  (18,3,18),
+  (19,2,19),
+  (20,3,20);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (21,1,21),
+  (22,1,22),
+  (23,1,23),
+  (24,2,24),
+  (25,1,25),
+  (26,3,26),
+  (27,3,27),
+  (28,3,28),
+  (29,1,29),
+  (30,2,30);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (31,2,31),
+  (32,2,32),
+  (33,1,33),
+  (34,3,34),
+  (35,2,35),
+  (36,2,36),
+  (37,2,37),
+  (38,1,38),
+  (39,1,39),
+  (40,1,40);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (41,2,41),
+  (42,1,42),
+  (43,2,43),
+  (44,2,44),
+  (45,2,45),
+  (46,1,46),
+  (47,2,47),
+  (48,2,48),
+  (49,2,49),
+  (50,2,50);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (51,1,51),
+  (52,2,52),
+  (53,2,53),
+  (54,2,54),
+  (55,2,55),
+  (56,2,56),
+  (57,3,57),
+  (58,3,58),
+  (59,2,59),
+  (60,2,60);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (61,2,61),
+  (62,2,62),
+  (63,3,63),
+  (64,1,64),
+  (65,2,65),
+  (66,1,66),
+  (67,2,67),
+  (68,1,68),
+  (69,2,69),
+  (70,2,70);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (71,2,71),
+  (72,2,72),
+  (73,2,73),
+  (74,1,74),
+  (75,2,75),
+  (76,3,76),
+  (77,2,77),
+  (78,1,78),
+  (79,2,79),
+  (80,3,80);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (81,1,81),
+  (82,2,82),
+  (83,1,83),
+  (84,2,84),
+  (85,2,85),
+  (86,1,86),
+  (87,2,87),
+  (88,1,88),
+  (89,2,89),
+  (90,2,90);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (91,3,91),
+  (92,2,92),
+  (93,1,93),
+  (94,3,94),
+  (95,2,95),
+  (96,3,96),
+  (97,2,97),
+  (98,1,98),
+  (99,3,99),
+  (100,3,100);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (101,1,101),
+  (102,2,102),
+  (103,2,103),
+  (104,2,104),
+  (105,3,105),
+  (106,3,106),
+  (107,2,107),
+  (108,2,108),
+  (109,2,109),
+  (110,2,110);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (111,2,111),
+  (112,3,112),
+  (113,3,113),
+  (114,3,114),
+  (115,2,115),
+  (116,2,116),
+  (117,2,117),
+  (118,2,118),
+  (119,2,119),
+  (120,2,120);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (121,3,121),
+  (122,2,122),
+  (123,2,123),
+  (124,2,124),
+  (125,2,125),
+  (126,2,126),
+  (127,3,127),
+  (128,2,128),
+  (129,2,129),
+  (130,2,130);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (131,2,131),
+  (132,1,132),
+  (133,2,133),
+  (134,2,134),
+  (135,2,135),
+  (136,2,136),
+  (137,2,137),
+  (138,3,138),
+  (139,2,139),
+  (140,3,140);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (141,2,141),
+  (142,2,142),
+  (143,3,143),
+  (144,2,144),
+  (145,1,145),
+  (146,3,146),
+  (147,1,147),
+  (148,2,148),
+  (149,1,149),
+  (150,3,150);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (151,1,151),
+  (152,3,152),
+  (153,2,153),
+  (154,2,154),
+  (155,3,155),
+  (156,1,156),
+  (157,1,157),
+  (158,2,158),
+  (159,2,159),
+  (160,1,160);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (161,3,161),
+  (162,2,162),
+  (163,2,163),
+  (164,1,164),
+  (165,3,165),
+  (166,2,166),
+  (167,1,167),
+  (168,2,168),
+  (169,2,169),
+  (170,3,170);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (171,2,171),
+  (172,3,172),
+  (173,2,173),
+  (174,2,174),
+  (175,2,175),
+  (176,1,176),
+  (177,1,177),
+  (178,2,178),
+  (179,2,179),
+  (180,3,180);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (181,3,181),
+  (182,3,182),
+  (183,2,183),
+  (184,2,184),
+  (185,2,185),
+  (186,3,186),
+  (187,1,187),
+  (188,2,188),
+  (189,2,189),
+  (190,3,190);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (191,1,191),
+  (192,3,192),
+  (193,2,193),
+  (194,3,194),
+  (195,1,195),
+  (196,2,196),
+  (197,2,197),
+  (198,1,198),
+  (199,1,199),
+  (200,2,200);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (201,2,201),
+  (202,3,202),
+  (203,3,203),
+  (204,2,204),
+  (205,2,205),
+  (206,3,206),
+  (207,3,207),
+  (208,2,208),
+  (209,2,209),
+  (210,2,210);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (211,2,211),
+  (212,3,212),
+  (213,2,213),
+  (214,2,214),
+  (215,3,215),
+  (216,3,216),
+  (217,3,217),
+  (218,3,218),
+  (219,2,219),
+  (220,1,220);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (221,3,221),
+  (222,2,222),
+  (223,2,223),
+  (224,2,224),
+  (225,3,225),
+  (226,2,226),
+  (227,3,227),
+  (228,2,228),
+  (229,1,229),
+  (230,3,230);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (231,2,231),
+  (232,2,232),
+  (233,1,233),
+  (234,2,234),
+  (235,2,235),
+  (236,2,236),
+  (237,1,237),
+  (238,2,238),
+  (239,1,239),
+  (240,2,240);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (241,2,241),
+  (242,3,242),
+  (243,2,243),
+  (244,2,244),
+  (245,2,245),
+  (246,1,246),
+  (247,1,247),
+  (248,3,248),
+  (249,1,249),
+  (250,3,250);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (251,2,251),
+  (252,2,252),
+  (253,3,253),
+  (254,2,254),
+  (255,1,255),
+  (256,3,256),
+  (257,2,257),
+  (258,2,258),
+  (259,2,259),
+  (260,2,260);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (261,1,261),
+  (262,3,262),
+  (263,1,263),
+  (264,3,264),
+  (265,1,265),
+  (266,2,266),
+  (267,2,267),
+  (268,3,268),
+  (269,3,269),
+  (270,3,270);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (271,3,271),
+  (272,3,272),
+  (273,2,273),
+  (274,1,274),
+  (275,1,275),
+  (276,3,276),
+  (277,2,277),
+  (278,2,278),
+  (279,2,279),
+  (280,1,280);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (281,3,281),
+  (282,2,282),
+  (283,2,283),
+  (284,2,284),
+  (285,1,285),
+  (286,2,286),
+  (287,2,287),
+  (288,2,288),
+  (289,3,289),
+  (290,3,290);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (291,3,291),
+  (292,2,292),
+  (293,3,293),
+  (294,2,294),
+  (295,1,295),
+  (296,2,296),
+  (297,3,297),
+  (298,1,298),
+  (299,2,299),
+  (300,1,300);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (301,1,301),
+  (302,3,302),
+  (303,2,303),
+  (304,1,304),
+  (305,2,305),
+  (306,2,306),
+  (307,2,307),
+  (308,2,308),
+  (309,3,309),
+  (310,2,310);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (311,2,311),
+  (312,2,312),
+  (313,3,313),
+  (314,2,314),
+  (315,2,315),
+  (316,1,316),
+  (317,1,317),
+  (318,2,318),
+  (319,2,319),
+  (320,2,320);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (321,1,321),
+  (322,2,322),
+  (323,3,323),
+  (324,1,324),
+  (325,2,325),
+  (326,1,326),
+  (327,3,327),
+  (328,1,328),
+  (329,3,329),
+  (330,3,330);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (331,2,331),
+  (332,2,332),
+  (333,2,333),
+  (334,2,334),
+  (335,2,335),
+  (336,3,336),
+  (337,1,337),
+  (338,1,338),
+  (339,2,339),
+  (340,1,340);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (341,2,341),
+  (342,2,342),
+  (343,2,343),
+  (344,2,344),
+  (345,2,345),
+  (346,3,346),
+  (347,3,347),
+  (348,2,348),
+  (349,2,349),
+  (350,2,350);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (351,2,351),
+  (352,2,352),
+  (353,3,353),
+  (354,2,354),
+  (355,2,355),
+  (356,3,356),
+  (357,2,357),
+  (358,3,358),
+  (359,2,359),
+  (360,1,360);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (361,1,361),
+  (362,2,362),
+  (363,2,363),
+  (364,2,364),
+  (365,1,365),
+  (366,2,366),
+  (367,2,367),
+  (368,1,368),
+  (369,3,369),
+  (370,1,370);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (371,2,371),
+  (372,1,372),
+  (373,2,373),
+  (374,3,374),
+  (375,1,375),
+  (376,2,376),
+  (377,2,377),
+  (378,3,378),
+  (379,2,379),
+  (380,3,380);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (381,1,381),
+  (382,2,382),
+  (383,2,383),
+  (384,3,384),
+  (385,2,385),
+  (386,2,386),
+  (387,2,387),
+  (388,3,388),
+  (389,2,389),
+  (390,3,390);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (391,3,391),
+  (392,2,392),
+  (393,2,393),
+  (394,2,394),
+  (395,1,395),
+  (396,2,396),
+  (397,2,397),
+  (398,2,398),
+  (399,2,399),
+  (400,2,400);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (401,1,401),
+  (402,1,402),
+  (403,1,403),
+  (404,2,404),
+  (405,2,405),
+  (406,2,406),
+  (407,1,407),
+  (408,2,408),
+  (409,1,409),
+  (410,3,410);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (411,3,411),
+  (412,2,412),
+  (413,2,413),
+  (414,2,414),
+  (415,3,415),
+  (416,1,416),
+  (417,1,417),
+  (418,3,418),
+  (419,2,419),
+  (420,2,420);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (421,1,421),
+  (422,2,422),
+  (423,1,423),
+  (424,1,424),
+  (425,2,425),
+  (426,2,426),
+  (427,1,427),
+  (428,2,428),
+  (429,1,429),
+  (430,1,430);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (431,2,431),
+  (432,1,432),
+  (433,2,433),
+  (434,3,434),
+  (435,2,435),
+  (436,2,436),
+  (437,1,437),
+  (438,1,438),
+  (439,2,439),
+  (440,3,440);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (441,2,441),
+  (442,2,442),
+  (443,3,443),
+  (444,1,444),
+  (445,2,445),
+  (446,2,446),
+  (447,1,447),
+  (448,2,448),
+  (449,2,449),
+  (450,1,450);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (451,1,451),
+  (452,2,452),
+  (453,2,453),
+  (454,1,454),
+  (455,2,455),
+  (456,3,456),
+  (457,2,457),
+  (458,2,458),
+  (459,2,459),
+  (460,3,460);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (461,2,461),
+  (462,2,462),
+  (463,3,463),
+  (464,1,464),
+  (465,3,465),
+  (466,1,466),
+  (467,3,467),
+  (468,2,468),
+  (469,1,469),
+  (470,2,470);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (471,1,471),
+  (472,3,472),
+  (473,2,473),
+  (474,2,474),
+  (475,1,475),
+  (476,2,476),
+  (477,2,477),
+  (478,3,478),
+  (479,2,479),
+  (480,2,480);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (481,3,481),
+  (482,1,482),
+  (483,1,483),
+  (484,3,484),
+  (485,2,485),
+  (486,2,486),
+  (487,2,487),
+  (488,1,488),
+  (489,2,489),
+  (490,2,490);
+INSERT INTO Relation_Cliente_Tipo (id_Relation_Cliente_Tipo,fk_Tipos_cliente,fk_cliente)
+VALUES
+  (491,1,491),
+  (492,2,492),
+  (493,2,493),
+  (494,2,494),
+  (495,2,495),
+  (496,3,496),
+  (497,2,497),
+  (498,3,498),
+  (499,2,499),
+  (500,2,500);
