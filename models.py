@@ -8,6 +8,16 @@
 from django.db import models
 
 
+class LoginClientAuthRelation(models.Model):
+    client_auth_relation_id = models.AutoField(primary_key=True)
+    auth = models.OneToOneField('AuthUser', models.DO_NOTHING)
+    client_id = models.IntegerField(unique=True)
+
+    class Meta:
+        managed = False
+        db_table = 'Login_client_auth_relation'
+
+
 class MarcasTarjeta(models.Model):
     mt_id = models.AutoField(db_column='MT_id', primary_key=True, blank=True, null=True)  # Field name made lowercase.
     mt_nombre = models.TextField(db_column='MT_nombre', unique=True)  # Field name made lowercase.
@@ -15,6 +25,16 @@ class MarcasTarjeta(models.Model):
     class Meta:
         managed = False
         db_table = 'Marcas_Tarjeta'
+
+
+class RelationClienteTipo(models.Model):
+    id_relation_cliente_tipo = models.AutoField(db_column='id_Relation_Cliente_Tipo', primary_key=True, blank=True, null=True)  # Field name made lowercase.
+    fk_tipos_cliente = models.IntegerField(db_column='fk_Tipos_cliente')  # Field name made lowercase.
+    fk_cliente = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'Relation_Cliente_Tipo'
 
 
 class TipoTarjeta(models.Model):
@@ -210,7 +230,7 @@ class Empleado(models.Model):
 
 class Movimientos(models.Model):
     id_movimientos = models.AutoField(primary_key=True, blank=True, null=True)
-    identificación_mov = models.IntegerField(blank=True, null=True)
+    identificacion_mov = models.IntegerField(blank=True, null=True)
     numero_cuenta = models.IntegerField(blank=True, null=True)
     tp_operacion = models.CharField(blank=True, null=True)
     hora_trans = models.IntegerField(blank=True, null=True)
