@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'Tarjetas',
     'Login',
     'itbank_page'
+    'Empleado'
 ]
 
 MIDDLEWARE = [
