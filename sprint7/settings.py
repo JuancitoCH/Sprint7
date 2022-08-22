@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'Prestamos',
     'Tarjetas',
     'Login',
-    'itbank_page'
+    'itbank_page',
     'Empleado'
 ]
 
