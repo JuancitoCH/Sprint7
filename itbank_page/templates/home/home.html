@@ -13,9 +13,13 @@
                             <div class="tarjeta">
                                 <h3 class="fw-bold">VISA xxx</h3>
                                 <p>Últimos consumos</p>
-                                <p>Cierre</p>
-                                <h4>$00.00</h4>
-                                <h4>USD 0.00</h4>
+                                <p>Caja de ahorro en pesos</p>
+                                {% if balance %}
+                                <h4>${{balance}}</h4>
+                                {% else %}
+                                <h4>$0.00</h4>
+                                {% endif %}
+                                <h4>vv</h4>
                             </div>
                         </article>
                     </div>

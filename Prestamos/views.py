@@ -68,7 +68,7 @@ def tipoDeClienteRestricciones(tipoCliente,data,clientid):
         Prestamo.objects.create(
             loan_date=data['fecha'],
             loan_type=data['tipo_prestamo'],
-            loan_total=cantidad,
+            loan_total=cantidad*100,
             customer_id=clientid
         ).save()
         # caja de ahorro en pesos 1
@@ -78,7 +78,7 @@ def tipoDeClienteRestricciones(tipoCliente,data,clientid):
         if not cuentas :
             Cuenta.objects.create(
                 customer_id=clientid,
-                balance=cantidad,
+                balance=cantidad*100,
                 iban='null',
                 tipo=TiposCuenta.objects.get(tcu_id=1)
                 ).save()

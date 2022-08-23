@@ -13,7 +13,7 @@
 - Se generaron cuentas para los 500 usuarios en la DB
 > ### formato de creacion 
 > username :  name+_+dni  
-> password :  dni
-> Ejemplo 
->> username : juan_34234234  
->> password : 34234234  
+> password :  dni  
+> #### Ejemplo (usuario funcional)
+>> username : Macy_13083003
+>> password : 13083003  
